@@ -3,4 +3,8 @@ version: 1.0.0
 main: com.yourserver.plugin.Main # <- ЭТА СТРОКА ОБЯЗАТЕЛЬНА И ДОЛЖНА БЫТЬ ПРАВИЛЬНОЙ
 api-version: '1.21'
 author: [neformsk]
-description: Plugin with Telegram registration
+description: |
+  Telegram authentication plugin
+  License: Personal use only
+  Commercial rights reserved by author
+  Full license in LICENSE file
