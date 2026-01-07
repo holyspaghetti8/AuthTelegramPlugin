@@ -56,20 +56,6 @@ Spigot/Paper 1.21.1+
 
 Maven 3.6+
 
-Структура проекта
-text
-src/main/java/com/yourserver/plugin/
-├── database/           # Работа с базой данных
-│   ├── DatabaseManager.java
-│   └── models/PlayerData.java
-├── listeners/          # Обработчики событий
-│   ├── PlayerListener.java
-│   └── TabListListener.java
-├── telegram/           # Telegram бот
-│   └── TelegramBot.java
-└── utils/              # Вспомогательные утилиты
-    ├── LoginConfirmManager.java
-    └── ProtectionManager.java
 📁 Конфигурация
 Все настройки в plugins/AuthTelegram/config.yml:
 
