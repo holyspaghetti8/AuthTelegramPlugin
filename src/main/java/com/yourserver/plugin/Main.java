@@ -1,3 +1,14 @@
+/*
+ * AuthTelegram Plugin
+ * Copyright (c) 2024 neformsk
+ * 
+ * ЛИЦЕНЗИЯ:
+ * - Бесплатно для личного использования
+ * - Запрещено коммерческое использование другими лицами
+ * - Автор сохраняет все права на продажу и коммерциализацию
+ * 
+ * Полный текст: https://github.com/neformsk/AuthTelegramPlugin/blob/main/LICENSE
+ */
 package com.yourserver.plugin;
 
 import com.yourserver.plugin.database.DatabaseManager;
