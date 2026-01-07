@@ -1,0 +1,27 @@
+telegram:
+  token: "ВАШ_BOT_TOKEN_ЗДЕСЬ"  # Замените на реальный токен от @BotFather
+  bot-name: "@YourServerBot"     # Имя вашего бота в Telegram
+
+server:
+  name: "Мой Minecraft Сервер"
+  motd: "Добро пожаловать!"
+
+messages:
+  registration-required: "§c⚠ Для игры необходимо зарегистрироваться через Telegram-бота!"
+  registration-success: "§a✅ Регистрация успешна! Добро пожаловать!"
+  
+restart:
+  enabled: false
+  time: "04:00"
+  
+tablist:
+  enabled: true
+  update-interval: 100  # тиков (20 тиков = 1 секунда)
+  
+database:
+  backup-interval: 3600  # секунды (1 час)
+
+  login-confirm:
+  enabled: true
+  timeout: 60
+  message: "🔐 Требуется подтверждение входа"

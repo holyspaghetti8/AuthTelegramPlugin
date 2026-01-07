@@ -1,0 +1,6 @@
+name: AuthTelegram
+version: 1.0.0
+main: com.yourserver.plugin.Main # <- ЭТА СТРОКА ОБЯЗАТЕЛЬНА И ДОЛЖНА БЫТЬ ПРАВИЛЬНОЙ
+api-version: '1.21'
+author: [neformsk]
+description: Plugin with Telegram registration
