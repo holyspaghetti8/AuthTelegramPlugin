@@ -1,6 +1,6 @@
 /*
  * AuthTelegram Plugin
- * Copyright (c) 2024 neformsk
+ * Copyright (c) 2026 neformsk
  * 
  * ЛИЦЕНЗИЯ:
  * - Бесплатно для личного использования
