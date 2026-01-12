@@ -113,6 +113,13 @@ public class PlayerListener implements Listener {
             if (to != null && (from.getBlockX() != to.getBlockX() || from.getBlockY() != to.getBlockY() || from.getBlockZ() != to.getBlockZ())) {
                 player.teleport(spawnPoint);
                 player.sendMessage("§cВы не можете ходить до завершения регистрации/подтверждения!");
+                player.sendMessage("§6═══════════════════════════════");
+                player.sendMessage("§c⚠ §fДля игры необходимо зарегистрироваться!");
+                player.sendMessage("§7Найдите нашего бота в Telegram:");
+                player.sendMessage("§a@" + plugin.getConfig().getString("telegram.bot-name", "YourServerBot"));
+                player.sendMessage("§7И отправьте команду:");
+                player.sendMessage("§e/register " + player.getName());
+                player.sendMessage("§6═══════════════════════════════");
             }
         }
     }
