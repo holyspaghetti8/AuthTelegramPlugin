@@ -59,6 +59,27 @@ public class PlayerListener implements Listener {
             player.sendMessage("§7И отправьте команду:");
             player.sendMessage("§e/register " + player.getName());
             player.sendMessage("§6═══════════════════════════════");
+            player.sendMessage("§6═══════════════════════════════");
+            player.sendMessage("§c⚠ §fДля игры необходимо зарегистрироваться!");
+            player.sendMessage("§7Найдите нашего бота в Telegram:");
+            player.sendMessage("§a@" + plugin.getConfig().getString("telegram.bot-name", "YourServerBot"));
+            player.sendMessage("§7И отправьте команду:");
+            player.sendMessage("§e/register " + player.getName());
+            player.sendMessage("§6═══════════════════════════════");
+            player.sendMessage("§6═══════════════════════════════");
+            player.sendMessage("§c⚠ §fДля игры необходимо зарегистрироваться!");
+            player.sendMessage("§7Найдите нашего бота в Telegram:");
+            player.sendMessage("§a@" + plugin.getConfig().getString("telegram.bot-name", "YourServerBot"));
+            player.sendMessage("§7И отправьте команду:");
+            player.sendMessage("§e/register " + player.getName());
+            player.sendMessage("§6═══════════════════════════════");
+            player.sendMessage("§6═══════════════════════════════");
+            player.sendMessage("§c⚠ §fДля игры необходимо зарегистрироваться!");
+            player.sendMessage("§7Найдите нашего бота в Telegram:");
+            player.sendMessage("§a@" + plugin.getConfig().getString("telegram.bot-name", "YourServerBot"));
+            player.sendMessage("§7И отправьте команду:");
+            player.sendMessage("§e/register " + player.getName());
+            player.sendMessage("§6═══════════════════════════════");
             
             if (data.isAdmin()) {
                 player.sendMessage("§6[ADMIN] §fВы администратор, но всё равно должны зарегистрироваться через бота!");
